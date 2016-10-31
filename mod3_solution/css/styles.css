@@ -57,36 +57,56 @@ h2 {
 
 h3 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #our-menu-title {
   margin-bottom: 40px;
 }
 
-#chicken {
+
+.nueva_caja {
   background-color: Gray;
   height: 1000px;
   margin-bottom: 20px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+  .col-lg-12 {
+    float: left;
+    width: 100%;
+  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
 
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
 
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+    width: 100%;
+  }
 
   /* Header */
   .navbar-brand {
